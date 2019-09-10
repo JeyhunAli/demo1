@@ -12,7 +12,7 @@ public class CommonC {
 		                          //interface is contain abstarct method no body 
 		System.setProperty("WebDriver.chrome.driver", "C:\\Users\\Ali-c\\eclipse-workspace\\DemoPractising\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.get("https://www.amazon.com");
+		driver.get("https://www.amazon.com");  //entering url
 		driver.manage().window().maximize();  // we use this tree line to overcome synchronization problem 
 		//what is synchronization it means between application and our code time matching 
 		//when script running faster than our website 
